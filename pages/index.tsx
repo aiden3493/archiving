@@ -36,11 +36,11 @@ const Home: NextPage = () => {
           아래 작품들을 구경해 보세요!
         </motion.p>
 
-        <motion.div className=" flex justify-center items-center flex-wrap flex-col">
+        <motion.div className="mt-6 flex justify-center items-center flex-wrap flex-col">
           <Link href="/cats-Spirited-Away">
             <motion.a
               animate={{ y: [20, 0] }}
-              transition={{ duration: 0.2, type: "spring", stiffness: 500 }}
+              transition={{ duration: 0.4, type: "spring", stiffness: 500 }}
               className="flex justify-center items-center w-[300px] h-[200px] mt-2 border-[2.5px] p-1 border-[#eaeaea] hover:border-blue-300 border-solid rounded-[10px] duration-100"
             >
               <Image
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                 height="200px"
                 quality={100}
                 priority
-                src="/../public/cat/0.jpg"
+                src="/public/cat/0.jpg"
               />
             </motion.a>
           </Link>
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
           <Link href="/was-huajeon">
             <motion.a
               animate={{ y: [20, 0] }}
-              transition={{ duration: 0.4, type: "spring", stiffness: 500 }}
+              transition={{ duration: 0.6, type: "spring", stiffness: 500 }}
               className="flex justify-center items-center w-[300px] h-[430px] mt-2 border-[2.5px] p-1 border-[#eaeaea] hover:border-blue-300 border-solid rounded-[10px] duration-100"
             >
               <Image
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
                 height="430px"
                 quality={100}
                 priority
-                src="/../public/was/1.png"
+                src="/public/was/1.png"
               />
             </motion.a>
           </Link>
@@ -76,7 +76,7 @@ const Home: NextPage = () => {
           <Link href="/calendar-1">
             <motion.a
               animate={{ y: [20, 0] }}
-              transition={{ duration: 0.6, type: "spring", stiffness: 500 }}
+              transition={{ duration: 0.8, type: "spring", stiffness: 500 }}
               className="flex justify-center items-center w-[300px] h-[430px] mt-2 border-[2.5px] p-1 border-[#eaeaea] hover:border-blue-300 border-solid rounded-[10px] duration-100"
             >
               <Image
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
                 height="430px"
                 quality={100}
                 priority
-                src="/../public/calendar-boys/1.png"
+                src="/public/calendar-boys/1.png"
               />
             </motion.a>
           </Link>
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
           <Link href="calendar-2">
             <motion.a
               animate={{ y: [20, 0] }}
-              transition={{ duration: 0.8, type: "spring", stiffness: 500 }}
+              transition={{ duration: 1, type: "spring", stiffness: 500 }}
               className="flex justify-center items-center w-[300px] h-[430px] mt-2 border-[2.5px] p-1 border-[#eaeaea] hover:border-blue-300 border-solid rounded-[10px] duration-100"
             >
               <Image
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
                 height="430px"
                 quality={100}
                 priority
-                src="/../public/calendar-son/0.jpg"
+                src="/public/calendar-son/0.jpg"
               />
             </motion.a>
           </Link>
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
           <Link href="calendar-3">
             <motion.a
               animate={{ y: [20, 0] }}
-              transition={{ duration: 1, type: "spring", stiffness: 500 }}
+              transition={{ duration: 1.2, type: "spring", stiffness: 500 }}
               className="flex justify-center items-center w-[300px] h-[430px] mt-2 border-[2.5px] p-1 border-[#eaeaea] hover:border-blue-300 border-solid rounded-[10px] duration-100"
             >
               <Image
@@ -122,7 +122,7 @@ const Home: NextPage = () => {
                 height="430px"
                 quality={100}
                 priority
-                src="/../public/calendar-yoon/12.jpg"
+                src="/public/calendar-yoon/12.jpg"
               />
             </motion.a>
           </Link>

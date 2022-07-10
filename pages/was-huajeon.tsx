@@ -58,7 +58,7 @@ const Home: NextPage = () => {
                 height="430px"
                 quality={100}
                 priority
-                src={`/../public/was/${i}.png`.toString()}
+                src={`/public/was/${i}.png`.toString()}
               />
             </motion.a>
           ))}
