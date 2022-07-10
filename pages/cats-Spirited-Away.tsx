@@ -55,7 +55,8 @@ const Home: NextPage = () => {
                 width="300px"
                 height="200px"
                 quality={100}
-                priority
+                placeholder="blur"
+                priority={true}
                 src={`/cat/${i}.jpg`.toString()}
               />
             </motion.a>

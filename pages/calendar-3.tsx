@@ -51,7 +51,8 @@ const Home: NextPage = () => {
                 width="300px"
                 height="430px"
                 quality={100}
-                priority
+                placeholder="blur"
+                priority={true}
                 src={`/calendar-yoon/${i}.jpg`.toString()}
               />
             </motion.a>
