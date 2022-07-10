@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                 height="200px"
                 quality={100}
                 priority
-                src="/public/cat/0.jpg"
+                src="/cat/0.jpg"
               />
             </motion.a>
           </Link>
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
                 height="430px"
                 quality={100}
                 priority
-                src="/public/was/1.png"
+                src="/was/1.png"
               />
             </motion.a>
           </Link>
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
                 height="430px"
                 quality={100}
                 priority
-                src="/public/calendar-boys/1.png"
+                src="/calendar-boys/1.jpg"
               />
             </motion.a>
           </Link>
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
                 height="430px"
                 quality={100}
                 priority
-                src="/public/calendar-son/0.jpg"
+                src="/calendar-son/0.jpg"
               />
             </motion.a>
           </Link>
@@ -122,7 +122,7 @@ const Home: NextPage = () => {
                 height="430px"
                 quality={100}
                 priority
-                src="/public/calendar-yoon/12.jpg"
+                src="/calendar-yoon/1.jpg"
               />
             </motion.a>
           </Link>

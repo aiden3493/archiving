@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                 height="430px"
                 quality={100}
                 priority
-                src={`/public/calendar-boys/${i}.jpg`.toString()}
+                src={`/calendar-boys/${i}.jpg`.toString()}
               />
             </motion.a>
           ))}
