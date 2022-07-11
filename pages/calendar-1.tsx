@@ -51,7 +51,6 @@ const Home: NextPage = () => {
                 width="300px"
                 height="430px"
                 quality={100}
-                placeholder="blur"
                 priority={true}
                 src={`/calendar-boys/${i}.jpg`.toString()}
               />

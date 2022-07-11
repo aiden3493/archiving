@@ -55,7 +55,6 @@ const Home: NextPage = () => {
                 width="300px"
                 height="200px"
                 quality={100}
-                placeholder="blur"
                 priority={true}
                 src={`/cat/${i}.jpg`.toString()}
               />

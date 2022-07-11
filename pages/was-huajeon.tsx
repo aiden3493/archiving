@@ -56,7 +56,6 @@ const Home: NextPage = () => {
                 className="rounded-[10px]"
                 width="300px"
                 height="430px"
-                placeholder="blur"
                 quality={100}
                 priority={true}
                 src={`/was/${i}.png`.toString()}

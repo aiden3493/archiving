@@ -49,7 +49,6 @@ const Home: NextPage = () => {
                 width="300px"
                 height="200px"
                 quality={100}
-                placeholder="blur"
                 priority={true}
                 src="/cat/0.jpg"
               />
@@ -68,7 +67,6 @@ const Home: NextPage = () => {
                 width="300px"
                 height="430px"
                 quality={100}
-                placeholder="blur"
                 priority={true}
                 src="/was/1.png"
               />
@@ -87,7 +85,6 @@ const Home: NextPage = () => {
                 width="300px"
                 height="430px"
                 quality={100}
-                placeholder="blur"
                 priority={true}
                 src="/calendar-boys/1.jpg"
               />
@@ -106,7 +103,6 @@ const Home: NextPage = () => {
                 width="300px"
                 height="430px"
                 quality={100}
-                placeholder="blur"
                 priority={true}
                 src="/calendar-son/0.jpg"
               />
@@ -125,7 +121,6 @@ const Home: NextPage = () => {
                 width="300px"
                 height="430px"
                 quality={100}
-                placeholder="blur"
                 priority={true}
                 src="/calendar-yoon/1.jpg"
               />
